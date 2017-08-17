@@ -1,6 +1,9 @@
 cask_args appdir: "/Applications"
 tap "caskroom/cask"
 tap "caskroom/versions"
+tap "codeclimate/formulae"
+tap "gemnasium/gemnasium"
+tap "fundingcircle/mortuary"
 
 # Core dependencies
 cask "java"
