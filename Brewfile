@@ -4,6 +4,7 @@ tap "caskroom/versions"
 tap "codeclimate/formulae"
 tap "gemnasium/gemnasium"
 tap "fundingcircle/mortuary"
+tap "homebrew/php"
 
 # Core dependencies
 cask "java"
