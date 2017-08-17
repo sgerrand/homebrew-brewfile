@@ -55,7 +55,6 @@ brew "cloc"
 brew "cloog"
 brew "cloog018"
 brew "cmake"
-brew "codeclimate"
 brew "colordiff"
 brew "composer"
 brew "confuse"
@@ -392,6 +391,8 @@ cask "visualvm"
 cask "vmware-fusion"
 cask "yubikey-neo-manager"
 cask "zoomus"
+
+brew "codeclimate" # Requires docker to be installed :\
 
 # Desktop apps to install via Mac App Store
 mas "1Password", id: 443987910
