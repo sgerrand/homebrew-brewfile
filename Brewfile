@@ -387,8 +387,6 @@ cask "wkhtmltopdf"
 cask "yubikey-neo-manager"
 cask "zoomus"
 
-brew "codeclimate" # Requires docker to be installed :\
-
 # Desktop apps to install via Mac App Store
 mas "1Password", id: 443987910
 mas "LastPass", id: 926036361
