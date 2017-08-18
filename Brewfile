@@ -401,3 +401,4 @@ mas "Omnigraffle 7", id: 1142578753
 mas "Pages", id: 409201541
 mas "Skitch", id: 425955336
 mas "Slack", id: 803453959
+mas "Telegram", id: 747648890
