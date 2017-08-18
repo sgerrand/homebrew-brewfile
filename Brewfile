@@ -330,7 +330,6 @@ brew "wget", args: ["with-gpgme"]
 brew "whois"
 brew "wxmac"
 brew "x264"
-brew "xctool"
 brew "xvid"
 brew "xz"
 brew "yajl"
