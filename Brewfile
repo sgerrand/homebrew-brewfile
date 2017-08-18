@@ -1,5 +1,6 @@
 cask_args appdir: "/Applications"
 tap "caskroom/cask"
+tap "caskroom/drivers"
 tap "caskroom/versions"
 tap "codeclimate/formulae"
 tap "gemnasium/gemnasium"
