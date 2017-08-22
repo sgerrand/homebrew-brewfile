@@ -399,6 +399,7 @@ cask "viscosity"
 cask "visualvm"
 cask "vmware-fusion"
 cask "wkhtmltopdf"
+cask "xscreensaver"
 cask "yubikey-neo-manager"
 cask "zoomus"
 
