@@ -9,7 +9,7 @@ tap "fundingcircle/mortuary"
 tap "homebrew/php"
 
 # Core dependencies
-cask "java"
+cask "java8"
 cask "xquartz"
 
 # Command line apps to install via Homebrew
@@ -150,6 +150,7 @@ brew "imagemagick"
 brew "isl"
 brew "isl011"
 brew "jasper"
+cask "java"
 brew "jemalloc"
 brew "jpeg"
 brew "jpeg-turbo"
