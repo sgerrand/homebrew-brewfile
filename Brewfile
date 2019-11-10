@@ -74,7 +74,7 @@ brew "ed"
 brew "elasticsearch"
 brew "elixir"
 brew "elm"
-brew "emacs", args: ["with-cocoa", "with-gnutls"]
+brew "emacs"
 brew "enchant"
 brew "erlang"
 brew "exercism"
