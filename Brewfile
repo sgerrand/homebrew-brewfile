@@ -398,6 +398,7 @@ mas "Keynote", id: 409183694
 mas "Microsoft Remote Desktop", id: 715768417
 # mas "Navicat Essentials for MySQL", id: 466415644
 # mas "Navicat Essentials for PostgreSQL", id: 466725643
+mas "NordVPN IKE", id: 1116599239
 mas "Numbers", id: 409203825
 mas "Omnigraffle 7", id: 1142578753
 mas "Pages", id: 409201541
