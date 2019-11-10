@@ -6,7 +6,8 @@ tap "homebrew/cask-versions"
 tap "codeclimate/formulae"
 
 # Core dependencies
-cask "java8"
+cask "adoptopenjdk"
+cask "adoptopenjdk8"
 cask "xquartz"
 
 # Command line apps to install via Homebrew
@@ -145,7 +146,6 @@ brew "imagemagick"
 brew "isl"
 brew "isl011"
 brew "jasper"
-cask "java"
 brew "jemalloc"
 brew "jpeg"
 brew "jpeg-turbo"
