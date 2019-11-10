@@ -4,7 +4,6 @@ tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "codeclimate/formulae"
-tap "gemnasium/gemnasium"
 tap "fundingcircle/mortuary"
 tap "homebrew/php"
 
