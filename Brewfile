@@ -358,6 +358,7 @@ cask "google-cloud-sdk"
 cask "handbrake"
 cask "inkscape"
 cask "insomnia"
+cask "inspec"
 cask "intellij-idea"
 cask "istat-menus" # Disabled until checksum is updated
 cask "kitematic"
