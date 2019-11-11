@@ -304,10 +304,10 @@ brew "unzip"
 brew "utf8proc"
 brew "v8"
 brew "varnish"
-brew "vim", args: ["with-client-server", "with-luajit"]
+brew "vim"
 brew "watch"
 brew "webp"
-brew "wget", args: ["with-gpgme"]
+brew "wget"
 brew "whois"
 brew "wxmac"
 brew "x264"
