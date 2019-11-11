@@ -11,7 +11,7 @@ tap "mongodb/brew"
 
 # Core dependencies
 cask "adoptopenjdk"
-cask "adoptopenjdk8"
+cask "adoptopenjdk/openjdk/adoptopenjdk8"
 cask "xquartz"
 
 # Command line apps to install via Homebrew
