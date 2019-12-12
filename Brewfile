@@ -359,7 +359,7 @@ cask "inkscape"
 cask "insomnia"
 cask "inspec"
 cask "intellij-idea"
-cask "istat-menus" # Disabled until checksum is updated
+cask "istat-menus"
 cask "kitematic"
 cask "licecap"
 cask "microsoft-office"
