@@ -7,3 +7,5 @@ jobs:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@master
+      - name: Hello world!
+        command: echo 'Hello world!'
