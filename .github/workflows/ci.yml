@@ -8,6 +8,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Check Homebrew bundle file
+      - name: Install contents of Homebrew bundle file
         run: brew bundle check || brew bundle install
 
