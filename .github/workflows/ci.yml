@@ -8,5 +8,5 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Hello world!
-        run: echo 'Hello world!'
+      - name: Check Homebrew bundle file
+        run: brew bundle check
