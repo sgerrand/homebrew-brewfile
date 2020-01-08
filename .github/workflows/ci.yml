@@ -5,7 +5,8 @@ on: [push]
 jobs:
   test:
     runs-on: macos-latest
+
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v1
       - name: Hello world!
-        command: echo 'Hello world!'
+        run: echo 'Hello world!'
