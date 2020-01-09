@@ -383,7 +383,7 @@ cask "vmware-fusion"
 cask "whatsapp"
 cask "wkhtmltopdf"
 cask "xscreensaver"
-cask "yubikey-manager"
+cask "yubico-yubikey-manager"
 cask "zoomus"
 
 # Desktop apps to install via Mac App Store
