@@ -341,6 +341,7 @@ cask "font-source-code-pro-for-powerline"
 cask "font-ubuntu-mono-derivative-powerline"
 
 # Desktop apps to install via Cask
+cask "1password"
 cask "adobe-creative-cloud"
 cask "amethyst"
 cask "atom"
@@ -354,7 +355,6 @@ cask "datagrip"
 cask "docker"
 cask "eclipse-java"
 cask "firefox"
-
 cask "github"
 cask "google-backup-and-sync"
 cask "google-chrome"
@@ -370,17 +370,21 @@ cask "istat-menus"
 cask "kitematic"
 cask "licecap"
 cask "microsoft-office"
+cask "nordvpn"
 cask "notion"
+cask "omnigraffle"
 cask "osxfuse"
 cask "phantomjs"
 cask "pritunl"
 cask "sketch"
+cask "skitch"
 cask "skype"
 cask "slack"
 cask "sonos"
 cask "sourcetree"
 cask "spotify"
 cask "switchresx"
+cask "telegram"
 cask "transmit"
 cask "vagrant"
 cask "virtualbox"
@@ -395,16 +399,7 @@ cask "yubico-yubikey-manager"
 cask "zoomus"
 
 # Desktop apps to install via Mac App Store
-mas "1Password", id: 443987910
-mas "LastPass", id: 926036361
 mas "Keynote", id: 409183694
 mas "Microsoft Remote Desktop", id: 715768417
-# mas "Navicat Essentials for MySQL", id: 466415644
-# mas "Navicat Essentials for PostgreSQL", id: 466725643
-mas "NordVPN IKE", id: 1116599239
 mas "Numbers", id: 409203825
-mas "Omnigraffle 7", id: 1142578753
 mas "Pages", id: 409201541
-mas "Skitch", id: 425955336
-mas "Slack", id: 803453959
-mas "Telegram", id: 747648890
