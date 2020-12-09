@@ -409,7 +409,7 @@ cask "whatsapp"
 cask "wkhtmltopdf"
 cask "xscreensaver"
 cask "yubico-yubikey-manager"
-cask "zoomus"
+cask "zoom"
 
 # Desktop apps to install via Mac App Store
 mas "Keynote", id: 409183694
