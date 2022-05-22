@@ -4,7 +4,6 @@ tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 
-tap "adoptopenjdk/openjdk"
 tap "chef/chef"
 tap "codeclimate/formulae"
 tap "heroku/brew"
@@ -12,8 +11,8 @@ tap "instrumenta/instrumenta"
 tap "mongodb/brew"
 
 # Core dependencies
-cask "adoptopenjdk"
-cask "adoptopenjdk/openjdk/adoptopenjdk8"
+cask "temurin"
+cask "temurin8"
 cask "xquartz"
 
 # Command line apps to install via Homebrew
