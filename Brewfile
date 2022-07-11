@@ -411,6 +411,7 @@ cask "yubico-yubikey-manager"
 cask "zoom"
 
 # Desktop apps to install via Mac App Store
+mas "1Password for Safari", id: 1569813296
 mas "Keynote", id: 409183694
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Numbers", id: 409203825
