@@ -347,6 +347,7 @@ cask "font-ubuntu-mono-derivative-powerline"
 # Desktop apps to install via Cask
 cask "1password"
 cask "adobe-creative-cloud"
+cask "amazon-chime"
 cask "amethyst"
 cask "atom"
 cask "betterzip"
