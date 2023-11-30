@@ -1,0 +1,33 @@
+name: Brew
+on:
+  # See: https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#pull_request
+  pull_request:
+  # See: https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#push
+  push:
+    branches:
+      - '**'
+    tags-ignore:
+      - '**'
+
+concurrency:
+  group: ${{ github.event_name != 'pull_request' && github.run_id || github.ref }}
+  cancel-in-progress: true
+
+env:
+  HOMEBREW_BUNDLE_MAS_SKIP: 1
+  MAKEJOBS: '-j10'
+
+jobs:
+  macos-12-x86_64:
+    name: 'macOS 12, x86_64'
+    runs-on: macos-12
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Clang version
+        run: clang --version
+
+      - name: Install Homebrew packages
+        run: brew bundle install --file ./Brewfile
