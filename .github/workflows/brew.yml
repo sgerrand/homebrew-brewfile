@@ -30,4 +30,4 @@ jobs:
         run: clang --version
 
       - name: Install Homebrew packages
-        run: brew bundle install --file ./Brewfile
+        run: brew bundle check --verbose || brew bundle install --file ./Brewfile --verbose
