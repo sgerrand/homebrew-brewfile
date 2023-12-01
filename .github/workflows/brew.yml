@@ -14,7 +14,6 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  HOMEBREW_BUNDLE_MAS_SKIP: 1
   MAKEJOBS: '-j10'
 
 jobs:
