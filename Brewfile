@@ -17,7 +17,7 @@ tap "puma/puma"
 
 # Core dependencies
 cask "temurin"
-cask "temurin8"
+cask "temurin@8"
 cask "xquartz"
 
 # Command line apps to install via Homebrew
