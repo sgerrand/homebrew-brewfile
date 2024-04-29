@@ -448,7 +448,11 @@ cask "zoom"
 
 # Desktop apps to install via Mac App Store
 mas "1Password for Safari", id: 1569813296
+mas "DuckDuckGo Privacy for Safari", id: 1482920575
 mas "Keynote", id: 409183694
 mas "Microsoft Remote Desktop", id: 1295203466
+mas "Muse", id: 1501563902
+mas "NordVPN", id: 905953485
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "Xcode", id: 497799835
