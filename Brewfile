@@ -339,6 +339,7 @@ brew "yarn"
 brew "ykclient"
 brew "ykpers"
 brew "zlib"
+brew "zizmor"
 brew "zookeeper"
 brew "zsh"
 
