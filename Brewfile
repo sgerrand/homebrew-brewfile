@@ -20,7 +20,7 @@ cask "xquartz"
 
 # Command line apps to install via Homebrew
 brew "ack"
-brew "actiondiff"
+brew "actionlint"
 brew "adns"
 brew "adr-tools"
 brew "ansible"
