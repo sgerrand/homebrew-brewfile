@@ -413,7 +413,6 @@ cask "osxfuse"
 cask "paw"
 cask "pritunl"
 cask "rar"
-cask "remarkable"
 cask "signal"
 cask "sketch"
 cask "skype"
@@ -450,4 +449,5 @@ mas "Muse", id: 1501563902
 mas "NordVPN", id: 905953485
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "Remarkable", id: 1276493162
 mas "Xcode", id: 497799835
