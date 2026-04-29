@@ -1,9 +1,5 @@
 cask_args appdir: "/Applications"
 
-tap "homebrew/cask-drivers"
-tap "homebrew/cask-fonts"
-tap "homebrew/cask-versions"
-
 tap "buildkite/buildkite"
 tap "chef/chef"
 tap "cloudflare/cloudflare"
