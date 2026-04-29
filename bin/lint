@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+set -uo pipefail
+
+BREWFILE="${1:-Brewfile}"
+errors=0
+
+if [ ! -f "$BREWFILE" ]; then
+  echo "ERROR: $BREWFILE not found"
+  exit 1
+fi
+
+# Check for duplicate entries
+dups=$(grep -E "^(brew|cask|tap|mas) " "$BREWFILE" | sort | uniq -d) || true
+if [ -n "$dups" ]; then
+  echo "ERROR: Duplicate entries in $BREWFILE:"
+  printf '%s\n' "$dups" | sed 's/^/  /'
+  errors=$((errors + 1))
+fi
+
+# Check for deprecated taps
+for tap in "homebrew/cask-drivers" "homebrew/cask-fonts" "homebrew/cask-versions"; do
+  if grep -qF "tap \"$tap\"" "$BREWFILE"; then
+    echo "ERROR: Deprecated tap: tap \"$tap\""
+    errors=$((errors + 1))
+  fi
+done
+
+if [ "$errors" -gt 0 ]; then
+  printf '\n%d issue(s) found in %s\n' "$errors" "$BREWFILE"
+  exit 1
+fi
+
+printf '%s OK\n' "$BREWFILE"
