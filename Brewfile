@@ -434,7 +434,7 @@ cask "whatsapp"
 cask "wireshark"
 cask "xquartz"
 cask "xscreensaver"
-cask "yubico-yubikey-manager"
+cask "yubico-authenticator"
 cask "zoom"
 
 # Desktop apps to install via Mac App Store
