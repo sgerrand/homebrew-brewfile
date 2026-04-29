@@ -296,6 +296,7 @@ brew "squashfs"
 brew "ssh-copy-id"
 brew "stern"
 brew "tcpdump"
+brew "tcl-tk", link: false
 brew "tfenv"
 brew "the_platinum_searcher"
 brew "the_silver_searcher"
