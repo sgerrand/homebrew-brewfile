@@ -3,3 +3,6 @@ pre-commit:
     brewfile-lint:
       glob: "Brewfile"
       run: bash ./bin/lint
+    shellcheck:
+      glob: "bin/*"
+      run: shellcheck {staged_files}
