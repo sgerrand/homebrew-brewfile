@@ -6,3 +6,12 @@ pre-commit:
     shellcheck:
       glob: "bin/*"
       run: shellcheck {staged_files}
+
+pre-push:
+  commands:
+    actionlint:
+      glob: ".github/workflows/*.{yml,yaml}"
+      run: actionlint
+    zizmor:
+      glob: ".github/workflows/*.{yml,yaml}"
+      run: zizmor .github/workflows/
